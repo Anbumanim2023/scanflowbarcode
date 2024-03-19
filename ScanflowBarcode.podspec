@@ -9,11 +9,13 @@ Pod::Spec.new do |spec|
   spec.license          = { :type => 'MIT', :file => 'LICENSE' }
   spec.author           = { 'Ramnath' => 'ramnath.t@optisolbusiness.com' }
   spec.source           = { :git => 'https://github.com/Anbumanim2023/scanflowbarcode.git', :branch => "master" }
+  spec.vendored_frameworks = "ScanflowBarcode.framework" 
+
   spec.swift_version    = '5.0'
 
   spec.platform     = :ios, '12.0'
 
-  spec.source_files = 'ScanflowBarcode/**/*.swift' # Adjust this path to match your source files
+  #spec.source_files = 'ScanflowBarcode/**/*.swift' # Adjust this path to match your source files
 
   spec.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' } # Custom build settings for your Pod target
 
