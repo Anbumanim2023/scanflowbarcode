@@ -5,7 +5,6 @@ Pod::Spec.new do |spec|
   spec.description      = <<-DESC
                           A longer description of ScanflowBarcode in Markdown format.
                           DESC
-
   spec.homepage         = 'https://www.scanflow.ai'
   spec.license          = { :type => 'MIT', :file => 'LICENSE' }
   spec.author           = { 'Ramnath' => 'ramnath.t@optisolbusiness.com' }
